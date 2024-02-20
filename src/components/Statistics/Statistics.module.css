@@ -1,6 +1,7 @@
-.statistics h2 {
+.statistic h2 {
   font-weight: 900;
-  font-size: 30px;
+  font-size: 40px;
+  color: rgb(133, 124, 7);
 }
 
 .item {
@@ -13,7 +14,7 @@
   font-weight: 700;
   font-size: 20px;
   margin-left: 20px;
-  color: rgb(233, 223, 89);
+  color: rgb(19, 3, 11);
 }
 .number {
   color: rebeccapurple;
