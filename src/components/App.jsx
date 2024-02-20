@@ -10,9 +10,14 @@ export class App extends Component {
     bad: 0,
   };
   changeState = buttonName => {
-    this.state(prevState => ({
-      [buttonName]: prevState[buttonName] + 1,
-    }));
+    this.setState(
+      prevState => ({
+        [buttonName]: prevState[buttonName] + 1,
+      }),
+      () => {
+        console.log(this.state);
+      }
+    );
   };
   render() {
     return (
